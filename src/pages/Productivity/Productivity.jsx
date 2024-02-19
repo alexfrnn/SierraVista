@@ -21,7 +21,6 @@ export default function Productivity() {
           Use a técnica pomodo: 25 minutos de foco, 5 minutos de intervalo, até
           completar 4 partes de 25 minutos e encerrar com 15 minutos de
           descanso.
-          <a className="link-widget" href=""></a>
         </p>
       </div>
       <div className="widget">
@@ -36,7 +35,28 @@ export default function Productivity() {
       </div>
       <div className="widget">
         <p>
-          Texto do widget 3 <a className="link-widget" href=""></a>{" "}
+          Passos diários para ter controle sobre sua{" "}
+          <a
+            className="link-widget"
+            href="https://datadetoxkit.org/pt/privacy/essentials"
+          >
+            privacidade
+          </a>
+          ,{" "}
+          <a
+            className="link-widget"
+            href="https://datadetoxkit.org/pt/security/essentials"
+          >
+            segurança
+          </a>
+          , e{" "}
+          <a
+            className="link-widget"
+            href="https://datadetoxkit.org/pt/wellbeing/essentials"
+          >
+            bem-estar
+          </a>{" "}
+          de formas que lhe pareçam corretas.
         </p>
       </div>
     </main>
