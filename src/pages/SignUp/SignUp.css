@@ -1,0 +1,98 @@
+form_signup {
+  margin-top: 12px;
+}
+
+.name_label {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 20px;
+  flex-direction: column;
+  font-weight: normal;
+  color: #333333;
+  display: flex;
+  white-space: nowrap;
+}
+
+.description_text {
+  font-family: "Ysabeau Infant", sans-serif;
+  margin-bottom: 0;
+  font-size: 20px;
+  flex-direction: column;
+  font-weight: normal;
+  color: #333333;
+  display: flex;
+}
+
+input[type="text"],
+.input_textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #333333;
+  border-radius: 8px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+}
+
+input[type="text"],
+.signup_textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 8px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+}
+
+.button_signup {
+  background: linear-gradient(to right, #8a8a8a, #6a6a6a);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition: background 0.5s;
+}
+
+.cancelButton {
+  background: linear-gradient(to right, #8a8a8a, #6a6a6a);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+  margin: 8px 0 0 16px;
+}
+
+.cancelButton:hover {
+  background: linear-gradient(to right, #a73340, #9e1030);
+}
+
+.button_signup:hover {
+  background: #d0e0c0;
+  color: #333333;
+}
+
+@media screen and (max-width: 600px) {
+  .input_textarea {
+    width: 50%;
+    font-size: 19px;
+  }
+
+  .signup_textarea {
+    width: 60%;
+    font-size: 19px;
+  }
+}

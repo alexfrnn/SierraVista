@@ -1,0 +1,109 @@
+.h1-home {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #333333;
+}
+
+.li_items {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #333333;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+
+#addTaskText {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 8px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 16px;
+}
+
+input[type="text"],
+textarea {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 8px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+}
+
+.addTask {
+  background: linear-gradient(to right, #8a8a8a, #6a6a6a);
+  font-size: 17px;
+  font-family: "Ysabeau Infant", sans-serif;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition: background 0.5s;
+}
+
+.button_delete_tasks {
+  background: linear-gradient(to right, #8a8a8a, #6a6a6a);
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 17px;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px 0 0 16px;
+}
+
+.addTask:hover {
+  background: linear-gradient(to right, #6a6a6a, #8a8a8a);
+}
+
+.button_delete_tasks:hover {
+  background: linear-gradient(to right, #6a6a6a, #8a8a8a);
+}
+
+@media screen and (max-width: 600px) {
+  #addTasktext {
+    width: 70%;
+    margin: 8px 0 10px 12px;
+    padding-bottom: 5px;
+  }
+
+  .addTask {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 70px;
+    height: 45px;
+    right: 33px;
+  }
+
+  .button_delete_tasks {
+    font-size: 18px;
+    padding: 0;
+    width: 70px;
+    height: 35px;
+    margin: 0 12px 10px 12px;
+  }
+
+  .button_delete_tasks:hover {
+    background: #a73340;
+  }
+}
