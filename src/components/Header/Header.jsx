@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="site-header">
-      <div className="site-title">Sierra Lista</div>
+      <div className="site-title">Sierra Vista</div>
       <div className="nav-menu">
         <nav>
           <ul className="nav-list">
