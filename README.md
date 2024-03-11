@@ -1,7 +1,7 @@
 # Description
 A to-do web application in React created in CodeSandBox
 with the primary goal of simplicity and easy access. 
-try here: [Sierra Vista](https://sierravista.pages.dev/))
+try here: [Sierra Vista](https://sierravista.pages.dev/)
 
 
 
