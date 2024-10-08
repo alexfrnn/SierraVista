@@ -56,7 +56,7 @@ export default function Productivity() {
           >
             bem-estar
           </a>{" "}
-          de formas que tranquilas.
+          de formas tranquilas.
         </p>
       </div>
     </main>
